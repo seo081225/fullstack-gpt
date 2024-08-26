@@ -17,7 +17,7 @@ source env/bin/activate
 python main.py
 
 # 3.0 LLMs and Chat Models
-.env 파일에 api키를 이번 강의들으시면서 등록한경우 notebook.ipynb 파일을 재시작(Restart) 할것.//ㅈㅈ
+.env 파일에 api키를 이번 강의들으시면서 등록한경우 notebook.ipynb 파일을 재시작(Restart) 할것
 
 llm = OpenAI() # 오류날때
 llm = OpenAI(model_name="gpt-3.5-turbo-1106")
