@@ -22,3 +22,6 @@ python main.py
 llm = OpenAI() # 오류날때
 llm = OpenAI(model_name="gpt-3.5-turbo-1106")
 https://platform.openai.com/docs/deprecations 페이지에 따르면 1월 4일 기준으로 text-davinci-003 모델은 사용중단된 것 같습니다. 강의 내용이 동작하도록 저는 현재 서비스 되는 모델을 지정해서 진행했습니다.
+
+# 6.1
+UnstructuredFileLoader 에러날경우 파이썬 버전 확인하고 3.11.6으로 맞출것
