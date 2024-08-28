@@ -25,3 +25,8 @@ https://platform.openai.com/docs/deprecations 페이지에 따르면 1월 4일 �
 
 # 6.1
 UnstructuredFileLoader 에러날경우 파이썬 버전 확인하고 3.11.6으로 맞출것
+
+# 7.0 Introduction
+source env/bin/activate
+streamlit run Home.py
+Always run 선택
